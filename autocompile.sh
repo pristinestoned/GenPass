@@ -3,7 +3,7 @@ if [ -f /usr/bin/cmake ]; then
 echo Running CMake
 cmake ./
 else
-echo You need install CMake
+echo You need to install CMake
 echo Example: sudo apt install cmake
 fi
 if [ -f /usr/bin/make ]; then
