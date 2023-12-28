@@ -1,5 +1,5 @@
 /* Author: Brian Ponnampalam brian2004 [at] hotmail.com
-   gcc -Wall -O2 -o genpass genpass.c
+   gcc -Wall -O3 -o genpass genpass.c
 */
 
 #include <time.h>
@@ -23,7 +23,8 @@ int main(int argc, char *argv[])
         putchar(rand() % 94 + 33);
         srand(rand());
     }
-
+    
+    /* Send a \n newline character */
     printf("\n");
 
     return EXIT_SUCCESS;
