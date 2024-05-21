@@ -8,3 +8,4 @@ set (CMAKE_C_FLAGS "-Wall -O3")
 set(SOURCE genpass.c)
 
 add_executable(${PROJECT_NAME} ${SOURCE})
+install(TARGETS genpass)
