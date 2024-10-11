@@ -26,7 +26,6 @@ int main(int argc, char *argv[])
     }
     
     /* Send a \n newline character */
-    // Send printf("\n");
    putchar(0x0A);
 
     return EXIT_SUCCESS;
