@@ -14,7 +14,7 @@ else
 echo You need to install Make
 echo Example: sudo apt install make
 fi
-else
+if [ -f ./genpass ]; then
 echo Running install
 sudo cmake --install
 fi
