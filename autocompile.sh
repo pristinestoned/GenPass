@@ -14,3 +14,7 @@ else
 echo You need to install Make
 echo Example: sudo apt install make
 fi
+else
+echo Running install
+sudo cmake --install
+fi
