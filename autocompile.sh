@@ -16,5 +16,5 @@ echo Example: sudo apt install make
 fi
 if [ -f ./genpass ]; then
 echo Running install
-sudo cmake --install
+sudo cmake --target INSTALL --config Debug
 fi
