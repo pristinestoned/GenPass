@@ -1,1 +1,0 @@
-gcc -Wall -O3 -Wl,--enable-auto-import CMakeFiles/genpass.dir/genpass.o -o genpass.exe -Wl,--out-implib,libgenpass.dll.a -Wl,--major-image-version,0,--minor-image-version,0
