@@ -13,6 +13,9 @@ int main(int argc, char *argv[])
        printf("Example: %s 8 (generates 8 characters)\n", argv[0]);
        return 1;
     }
+    /* Send a \n newline character */
+    putchar(0x0A);
+
     /* Length of the password */
     unsigned short int length = atoi(argv[1]);
 
