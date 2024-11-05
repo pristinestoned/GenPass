@@ -17,7 +17,6 @@ install: genpass
     
 .PHONY: install
 
-
 clean:
 	rm -f *.o
 
