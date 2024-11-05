@@ -28,8 +28,9 @@ int main(int argc, char *argv[])
         srand(rand());
     }
     
-    /* Send a \n newline character */
-   putchar(0x0A);
-
+    /* Send \n newline character */
+    putchar(0x0A);
+    putchar(0x0A);
+   
     return EXIT_SUCCESS;
 }
